@@ -1,0 +1,111 @@
+.body{
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 94px;
+    padding-right: 24px;
+    background-color: rgb(248, 248, 248);
+}
+.video-grider {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)) ; /* Responsive columns */
+    column-gap: 10px;
+    row-gap: 40px;
+}
+
+
+.thumbnail{
+    width: 100%;
+}
+
+
+
+
+.Title{
+    font-weight: bold;
+    color: black;
+    font-family: Arial;
+    font-size: 16px;
+    width: 290px;
+    font-style: italic;
+    text-align: left;
+    margin-bottom: 0;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
+
+.entire-description{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+
+.views{
+    margin-top: 3px;
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    margin-bottom: 3px;
+    display: block;
+    width: 200px;
+}
+.channel-picture{
+    width: 47px;
+    vertical-align: top;
+}
+.channel-image{
+    width: 75%;
+    border-radius: 50px;
+}
+
+
+.channel{
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    font-style: italic;
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 3px;
+}
+.thumbnail-area{
+    margin-bottom: 10px;
+}
+.description{
+    width: 280px;
+}
+.Video1{
+
+    transition: opacity 0.7s;
+}
+
+.first-link{
+    text-decoration: none;
+}
+.thumbnail-area{
+    position: relative;
+}
+.time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    z-index: 2;
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+}
+.Video1:hover{
+    opacity: 0.7;
+}
+.Video1:active{
+    opacity: 0.4;
+}

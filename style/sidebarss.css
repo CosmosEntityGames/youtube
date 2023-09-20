@@ -1,0 +1,29 @@
+.sidebar{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 72px;
+    z-index: 200;
+    padding-top: 5px;
+}
+.sidebars{
+    height: 74px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sidebars:hover{
+    background-color: rgb(236, 236, 236);
+}
+.imagesSide{
+    height: 24px;
+    width: 24px;
+}
+.sidebars div{
+    font-size: 13.5px;
+}
